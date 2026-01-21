@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    background-image: url(/starter-code/assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Great1;
+    padding:   10px;
+}
+@font-face {
+    font-family: Great1;
+    src: url(/fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: Great2;
+    src: url(/fonts/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Great3;
+    src: url(/fonts/Bellefair-Regular.ttf);
+}
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+.right-nav {
+    cursor: pointer;
+    ul {
+        list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+   
+}
+}
+#hide {
+    display: none;
+}
+.left-nav {
+    cursor: pointer;   
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-family: Great2;
+        font-weight: 600;
+        font-size: 25px;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+    }
+}
+#planet-img {
+    width: 50%;
+    margin-bottom: 40px;
+}
+#unordered-planets {
+    display: flex;
+    box-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    a {
+        text-decoration: none;
+        font-size: 27px;
+        color: wheat;
+        list-style-type: none;
+        font-family: Great2;
+        margin: 0px -5px;
+        
+    }
+}
+#unordered-planets a:hover {
+    color: red;
+    
+}
+main {
+    font-family: Great2;
+    text-align: center;
+    line-height: 35px;
+    font-size: 23px;
+    margin: 0px 5px;
+    margin-bottom:20px;
+    font-weight: 500;
+    h1 {
+        font-family: Great3;
+        font-size: 60px;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+    }
+}
+.border-bottom{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    
+    margin: 30px 0px;
+}
+.avg {
+    h1 {
+        font-family: Great2;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    
+}
+.miles { h1 {
+
+    font-family: Great3;
+    font-weight: 500;
+    font-size: 37px;
+    margin-top: -20px;
+}
+}
+.estimate {
+    h1 {
+        font-weight: 500;
+        font-family: Great2;
+        font-size: 30px;
+        
+    }
+}
+.time {
+    h1 {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: -25px;
+    }
+}
+
+ 

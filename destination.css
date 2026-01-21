@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Great1;
+    src: url(/fonts/Inconsolata-Bold.ttf);
+}
+body {
+    background-image: url(/starter-code/assets/destination/background-destination-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;Great1
+    font-family: ;
+
+}
+.main-container {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+}

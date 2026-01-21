@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Great1;
+    src: url(/fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: Great2;
+    src: url(/fonts/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Great3;
+    src: url(/fonts/Bellefair-Regular.ttf);
+}
+body {
+    background-image: url(/starter-code/assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Great1;
+    color: white;
+    overflow-x: hidden;
+}
+.main-container {
+    padding: 20px;
+}
+.nav-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin-bottom: 50px;
+        font-family: Great2;
+        letter-spacing: 3px;
+    }
+
+}
+#moon {
+    width: 50%;
+}
+.moon-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#unordered-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+    font-family: Great2;
+    margin: 0px 20px;  
+}
+.planets {
+    margin-bottom: 30px;
+    
+
+
+    a {
+    color: wheat; 
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 0px -5px;
+    
+    }
+}
+
+.planets li  :hover {
+    color: red;
+}
+.hero-header {
+    margin-bottom: 20px;
+    h1 {
+        font-size: 60px;
+        letter-spacing: 5px;
+        font-family: Great3;
+
+    }
+} 
+p {
+    text-align: center;
+    line-height: 30px;
+    font-family: Great2;
+    font-size: 23px;
+    margin: 0px 5px;
+    margin-bottom:50px;
+    font-weight: 500;
+   
+}
+.border {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin: 0px 30px;
+    margin-bottom: 20px;
+}
+#right-1 {
+    cursor: pointer;
+}
+.avg-distance {
+    text-align: center;;
+}
+#distance {
+    font-family: Great2;
+    margin-bottom: 10px;
+}
+#figure {
+    font-family: Great3;
+    font-size: 37px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+#estimate {
+    font-family: Great2;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#days {
+    font-family: Great3;
+    font-size: 35px;
+    font-weight: 400;
+}
